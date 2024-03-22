@@ -4,7 +4,7 @@
     "api/get_user.php": {
       "runtime": "vercel-php@0.5.2"
     },
-    "api/add_user.php": {
+    "api/add_users.php": {
       "runtime": "vercel-php@0.5.2"
     },
     "api/delete_user.php": {
