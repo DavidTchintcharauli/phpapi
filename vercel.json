@@ -1,20 +1,18 @@
 {
-    "version": 2,
-    "functions": {
-      "api/add_user.php": {
-        "runtime": "vercel-php@0.5.2"
-      },
-      "api/delete_user.php": {
-        "runtime": "vercel-php@0.5.2"
-      },
-      "api/get_user.php": {
-        "runtime": "vercel-php@0.5.2"
-      },
-      "api/update_user.php": {
-        "runtime": "vercel-php@0.5.2"
-      }
+  "version": 2,
+  "functions": {
+    "api/get_user.php": {
+      "runtime": "vercel-php@0.5.2"
     },
-    "routes": [
-      { "handle": "filesystem" }
-    ]
-  }
+    "api/add_user.php": {
+      "runtime": "vercel-php@0.5.2"
+    },
+    "api/delete_user.php": {
+      "runtime": "vercel-php@0.5.2"
+    },
+    "api/update_user.php": {
+      "runtime": "vercel-php@0.5.2"
+    }
+  },
+  "routes": [{ "handle": "filesystem" }]
+}
